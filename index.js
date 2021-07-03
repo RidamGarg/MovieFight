@@ -43,7 +43,7 @@ Wrapper({
 let leftSide ;
 let rightSide ;
 const MovieInfo = async (movie,target,side) =>{
-   const response = await axios.get('http://www.omdbapi.com/',{
+   const response = await axios.get('https://www.omdbapi.com/',{
        params:{
            apikey:'1e3ddfa3',
            i : `${movie}`
